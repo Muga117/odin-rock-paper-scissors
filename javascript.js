@@ -16,3 +16,11 @@ function getComputerChoice(){
             console.log("Scissors")
     }
 }
+
+// Create a function that prompts the user for their choice and returns it.
+function getHumanChoice(){
+    /* The function assumes the user will input a valid choice and therefore
+    there is no logic for reprompting the user incase of invalid input. */
+    let choice = prompt("Pick Rock, Paper or Scissors");
+    return choice;
+}
